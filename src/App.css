@@ -1,3 +1,10 @@
+@import url(http://fonts.googleapis.com/css?family=arial:400,300,700);
+
+body {
+  font-family: 'Arial', sans-serif !important;
+}
+
+
 .App {
   text-align: center;
 }
