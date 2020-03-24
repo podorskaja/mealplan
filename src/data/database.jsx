@@ -1,5 +1,6 @@
 const recipes = [
   {
+    id: 1,
     name: 'potato salad',
     nutritional_value: {
       calories: 333,
@@ -19,6 +20,7 @@ const recipes = [
     instructions: [],
   },
   {
+    id: 2,
     name: 'scrambled eggs',
     nutritional_value: {
       calories: 4,
@@ -43,3 +45,6 @@ export function getRecipes() {
   return recipes;
 }
 
+export function getRecipeById(id) {
+  return recipes.find(r => r.id === parseInt(id));
+}

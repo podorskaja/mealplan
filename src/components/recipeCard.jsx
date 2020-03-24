@@ -1,6 +1,7 @@
 import * as PropTypes from "prop-types";
 import React from "react";
 import './recipe.css';
+import {Link} from "react-router-dom";
 
 
 export function RecipeCard(props) {
@@ -8,10 +9,16 @@ export function RecipeCard(props) {
     <React.Fragment>
       <div>
         <div>
-          <img src={props.recipe.url} alt="" className="img-fluid"/>
+          <Link to={`/recipes/${props.recipe.id}`}>
+            <img src={props.recipe.url} alt="" className="img-fluid"/>
+          </Link>
         </div>
         <div className="container">
-          <h1 className="recipe-name">{props.recipe.name}</h1>
+          <Link to={`/recipes/${props.recipe.id}`}>
+            <h1 className="recipe-name">
+              {props.recipe.name}
+            </h1>
+          </Link>
         </div>
       </div>
       {props.standalone && <br/>}
