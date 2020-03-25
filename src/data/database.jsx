@@ -1,40 +1,59 @@
 const recipes = [
-  {
+    {
     id: 1,
-    name: 'potato salad',
+    name: 'Avocado toasts',
     nutritional_value: {
-      calories: 333,
-      fat: 111,
-      carbs: 123,
-      protein: 155,
+      calories: 347,
+      fat: '20g',
+      carbs: '30g',
+      protein: '8g',
     },
 
-    url: "https://picsum.photos/375/260",
+    url: "https://res.cloudinary.com/dvxu60gq8/image/upload/v1585121445/avocadotoast_cy1l90.jpg",
     ingredients: [
-      '3 eggs',
-      '7g butter',
-      '50g bacon',
-      '50g smoked salmon',
-      'Green salad',
+      '2 Whole toast buns',
+      '70g Avocado',
+      '60g Smoked salmon',
+      '30g Philadeplhia (Cucumber & Feta)'
     ],
     instructions: [],
   },
   {
     id: 2,
-    name: 'scrambled eggs',
+    name: 'Potato salad',
     nutritional_value: {
-      calories: 4,
-      fat: 6,
-      carbs: 4,
-      protein: 9,
+      calories: 286,
+      fat: '14g',
+      carbs: '39g',
+      protein: '4g',
     },
 
-    url: "https://picsum.photos/375/260",
+    url: "https://res.cloudinary.com/dvxu60gq8/image/upload/v1585073447/salad_toaepd.jpg",
     ingredients: [
-      '3 eggs',
-      '7g butter',
-      '50g bacon',
-      '50g smoked salmon',
+      '150g Potatoes',
+      '50g Pickled cucumbers',
+      '1/4 Red onion',
+      '1tbs Olive oil',
+      'Green salad',
+    ],
+    instructions: [],
+  },
+  {
+    id: 3,
+    name: 'Scrambled eggs',
+    nutritional_value: {
+      calories: 333,
+      fat: '22g',
+      carbs: '2g',
+      protein: '28g',
+    },
+
+    url: "https://res.cloudinary.com/dvxu60gq8/image/upload/v1585075020/F0E6ABEE-DE72-450A-8D02-17F60F26AF07_kmdjmo.jpg",
+    ingredients: [
+      '3 Eggs',
+      '7g Butter',
+      '50g Bacon',
+      '50g Smoked salmon',
       'Green salad',
     ],
     instructions: [],
