@@ -1,6 +1,24 @@
 const recipes = [
-    {
+        {
     id: 1,
+    name: 'Baked sweet potato',
+    nutritional_value: {
+      calories: 347,
+      fat: '20g',
+      carbs: '30g',
+      protein: '8g',
+    },
+
+    url: "https://res.cloudinary.com/dvxu60gq8/image/upload/v1586002326/batat_lldph5.jpg",
+    ingredients: [
+      '600g Sweet potato',
+      '2 tbs Smoked paprika',
+      '2 tbs Olive oil',
+    ],
+    instructions: [],
+  },
+    {
+    id: 2,
     name: 'Avocado toasts',
     nutritional_value: {
       calories: 347,
@@ -19,7 +37,7 @@ const recipes = [
     instructions: [],
   },
   {
-    id: 2,
+    id: 3,
     name: 'Potato salad',
     nutritional_value: {
       calories: 286,
@@ -39,7 +57,7 @@ const recipes = [
     instructions: [],
   },
   {
-    id: 3,
+    id: 4,
     name: 'Scrambled eggs',
     nutritional_value: {
       calories: 333,
