@@ -1,0 +1,147 @@
+@import url(http://fonts.googleapis.com/css?family=arial:400,300,700);
+
+$primary-color: #78855E;
+$secondary-color: #918C60;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif !important;
+}
+
+.container {
+  padding: 0 1rem;
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-primary {
+  color: $primary-color;
+}
+
+.text-secondary {
+  color: $secondary-color;
+}
+
+@for $i from 1 through 5 {
+  .m-#{$i} {
+    margin: #{$i}rem;
+  }
+  .p-#{$i} {
+    padding: #{$i}rem;
+  }
+
+  .my-#{$i} {
+    margin: #{$i}rem 0;
+  }
+  .py-#{$i} {
+    padding: #{$i}rem 0;
+  }
+}
+
+// Navbar
+#logo {
+  color: white;
+  font-style: italic;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+#main-nav {
+  display: flex;
+  justify-content: space-between;
+  background: $primary-color;
+}
+
+// RecipeCard
+.recipe-name {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: $primary-color;
+}
+
+// RecipeDetail
+#recipe-detail {
+  #nutritional-value {
+    p {
+      color: $primary-color;
+      margin-bottom: 0.5rem;
+
+    }
+
+    ul {
+      display: flex;
+      justify-content: space-between;
+
+      .circle {
+        width: 4em;
+        height: 4em;
+        border-radius: 50%;
+        color: $primary-color;
+        font-size: 1em;
+        line-height: 4em;
+        text-align: center;
+        background: #fff;
+        border-color: $primary-color;
+        border-style: solid;
+        border-width: thin;
+        margin-bottom: 2pt;
+
+        p {
+          font-weight: bold;
+        }
+      }
+
+      p {
+        text-align: center;
+        color: $primary-color;
+      }
+    }
+  }
+
+  #ingredients {
+    h2 {
+      font-size: 1.5em;
+      font-weight: bold;
+      color: $secondary-color;
+      margin-top: 1rem;
+    }
+
+    hr {
+      margin-top: 0.1rem;
+      color: $secondary-color;
+    }
+
+    p {
+      color: $secondary-color;
+      margin-top: 1rem;
+    }
+
+    ul {
+      color: $secondary-color;
+      display: block;
+      list-style-type: disc;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0;
+      margin-inline-end: 0;
+      padding-inline-start: 1rem;
+    }
+  }
+}
+

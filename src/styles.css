@@ -1,0 +1,190 @@
+@import url(http://fonts.googleapis.com/css?family=arial:400,300,700);
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial", sans-serif !important;
+}
+
+.container {
+  padding: 0 1rem;
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-primary {
+  color: #78855E;
+}
+
+.text-secondary {
+  color: #918C60;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.my-1 {
+  margin: 1rem 0;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+.m-2 {
+  margin: 2rem;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.my-2 {
+  margin: 2rem 0;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.m-3 {
+  margin: 3rem;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
+.my-3 {
+  margin: 3rem 0;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+.m-4 {
+  margin: 4rem;
+}
+
+.p-4 {
+  padding: 4rem;
+}
+
+.my-4 {
+  margin: 4rem 0;
+}
+
+.py-4 {
+  padding: 4rem 0;
+}
+
+.m-5 {
+  margin: 5rem;
+}
+
+.p-5 {
+  padding: 5rem;
+}
+
+.my-5 {
+  margin: 5rem 0;
+}
+
+.py-5 {
+  padding: 5rem 0;
+}
+
+#logo {
+  color: white;
+  font-style: italic;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+#main-nav {
+  display: flex;
+  justify-content: space-between;
+  background: #78855E;
+}
+
+.recipe-name {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #78855E;
+}
+
+#recipe-detail #nutritional-value p {
+  color: #78855E;
+  margin-bottom: 0.5rem;
+}
+#recipe-detail #nutritional-value ul {
+  display: flex;
+  justify-content: space-between;
+}
+#recipe-detail #nutritional-value ul .circle {
+  width: 4em;
+  height: 4em;
+  border-radius: 50%;
+  color: #78855E;
+  font-size: 1em;
+  line-height: 4em;
+  text-align: center;
+  background: #fff;
+  border-color: #78855E;
+  border-style: solid;
+  border-width: thin;
+  margin-bottom: 2pt;
+}
+#recipe-detail #nutritional-value ul .circle p {
+  font-weight: bold;
+}
+#recipe-detail #nutritional-value ul p {
+  text-align: center;
+  color: #78855E;
+}
+#recipe-detail #ingredients h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #918C60;
+  margin-top: 1rem;
+}
+#recipe-detail #ingredients hr {
+  margin-top: 0.1rem;
+  color: #918C60;
+}
+#recipe-detail #ingredients p {
+  color: #918C60;
+  margin-top: 1rem;
+}
+#recipe-detail #ingredients ul {
+  color: #918C60;
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 1rem;
+}
+
+/*# sourceMappingURL=styles.css.map */

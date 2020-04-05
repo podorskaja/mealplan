@@ -1,8 +1,8 @@
 import React from 'react';
 import {getRecipes} from "./data/database";
 import {RecipeCard} from "./components/recipeCard";
-import './App.css';
-import Recipe from "./components/recipe";
+import './styles.css';
+import RecipeDetail from "./components/recipeDetail";
 import {Navbar} from "./components/navbar";
 import {Route, Switch} from "react-router-dom";
 
@@ -19,12 +19,12 @@ class App extends React.Component {
 
           <Route
             path="/recipes/:id"
-            render={(routeProps) => <Recipe {...routeProps}/>}
+            render={(routeProps) => <RecipeDetail {...routeProps}/>}
           />
 
 
           <Route path="/recipes">
-            {this.state.recipes.map(r => <Recipe key={r.id} recipe={r}/>)}
+            {this.state.recipes.map(r => <RecipeDetail key={r.id} recipe={r}/>)}
           </Route>
 
           <Route exact path="/">

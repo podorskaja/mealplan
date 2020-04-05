@@ -1,16 +1,15 @@
 import * as PropTypes from "prop-types";
 import React from "react";
-import './recipe.css';
 import {Link} from "react-router-dom";
 
 
 export function RecipeCard(props) {
   return (
     <React.Fragment>
-      <div>
+      <section className="recipe-card">
         <div>
           <Link to={`/recipes/${props.recipe.id}`}>
-            <img src={props.recipe.url} alt="" className="img-fluid"/>
+            <img src={props.recipe.url} alt=""/>
           </Link>
         </div>
         <div className="container">
@@ -20,7 +19,7 @@ export function RecipeCard(props) {
             </h1>
           </Link>
         </div>
-      </div>
+      </section>
       {props.standalone && <br/>}
     </React.Fragment>
   );
