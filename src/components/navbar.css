@@ -1,5 +1,23 @@
 .navbar-brand {
-    color: #78855E !important;
-    font-weight: bolder;
+    color: white !important;
+    font-style: italic;
+    background: #78855E;
     font-size: 2em !important;
+}
+.navbar-custom {
+    background-color: #78855E;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(255,255,255,.8);
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
 }
