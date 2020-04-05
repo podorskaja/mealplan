@@ -9,7 +9,7 @@ export function RecipeCard(props) {
       <section className="recipe-card">
         <div>
           <Link to={`/recipes/${props.recipe.id}`}>
-            <img src={props.recipe.url} alt=""/>
+            <img src={props.recipe.url} alt="" sizes="100vw"/>
           </Link>
         </div>
         <div className="container">

@@ -1,6 +1,22 @@
 const recipes = [
-        {
+            {
     id: 1,
+    name: 'Chicken bowl',
+    nutritional_value: {
+      calories: 347,
+      fat: '20g',
+      carbs: '30g',
+      protein: '8g',
+    },
+
+    url: "https://res.cloudinary.com/dvxu60gq8/image/upload/w_auto/v1586110754/IMG_0587_copy_wkcbua.jpg",
+    ingredients: [
+      '1kg chicken',
+    ],
+    instructions: [],
+  },
+        {
+    id: 2,
     name: 'Baked sweet potato',
     nutritional_value: {
       calories: 347,
@@ -9,7 +25,7 @@ const recipes = [
       protein: '8g',
     },
 
-    url: "https://res.cloudinary.com/dvxu60gq8/image/upload/v1586002326/batat_lldph5.jpg",
+    url: "https://res.cloudinary.com/dvxu60gq8/image/upload/w_auto/v1586002326/batat_lldph5.jpg",
     ingredients: [
       '600g Sweet potato',
       '2 tbs Smoked paprika',
@@ -18,7 +34,7 @@ const recipes = [
     instructions: [],
   },
     {
-    id: 2,
+    id: 3,
     name: 'Avocado toasts',
     nutritional_value: {
       calories: 347,
@@ -27,7 +43,7 @@ const recipes = [
       protein: '8g',
     },
 
-    url: "https://res.cloudinary.com/dvxu60gq8/image/upload/v1585121445/avocadotoast_cy1l90.jpg",
+    url: "https://res.cloudinary.com/dvxu60gq8/image/upload/w_auto/v1585121445/avocadotoast_cy1l90.jpg",
     ingredients: [
       '2 Whole toast buns',
       '70g Avocado',
@@ -37,7 +53,7 @@ const recipes = [
     instructions: [],
   },
   {
-    id: 3,
+    id: 4,
     name: 'Potato salad',
     nutritional_value: {
       calories: 286,
@@ -46,7 +62,7 @@ const recipes = [
       protein: '4g',
     },
 
-    url: "https://res.cloudinary.com/dvxu60gq8/image/upload/v1585073447/salad_toaepd.jpg",
+    url: "https://res.cloudinary.com/dvxu60gq8/image/upload/w_auto/v1585073447/salad_toaepd.jpg",
     ingredients: [
       '150g Potatoes',
       '50g Pickled cucumbers',
@@ -57,7 +73,7 @@ const recipes = [
     instructions: [],
   },
   {
-    id: 4,
+    id: 5,
     name: 'Scrambled eggs',
     nutritional_value: {
       calories: 333,
@@ -66,7 +82,7 @@ const recipes = [
       protein: '28g',
     },
 
-    url: "https://res.cloudinary.com/dvxu60gq8/image/upload/v1585075020/F0E6ABEE-DE72-450A-8D02-17F60F26AF07_kmdjmo.jpg",
+    url: "https://res.cloudinary.com/dvxu60gq8/image/upload/w_auto/v1585075020/F0E6ABEE-DE72-450A-8D02-17F60F26AF07_kmdjmo.jpg",
     ingredients: [
       '3 Eggs',
       '7g Butter',
