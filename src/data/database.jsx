@@ -1,6 +1,22 @@
 const recipes = [
-    {
+        {
         id: 1,
+        name: 'Oatmeal omlette with salmon & avocado',
+        nutritional_value: {
+            calories: 347,
+            fat: '20g',
+            carbs: '30g',
+            protein: '8g',
+        },
+
+        url: "https://res.cloudinary.com/dvxu60gq8/image/upload/v1588161203/omlette_jhq7l0.jpg",
+        ingredients: [
+            '1kg salmon',
+        ],
+        instructions: [],
+    },
+    {
+        id: 2,
         name: 'Burgers',
         nutritional_value: {
             calories: 347,
@@ -16,7 +32,7 @@ const recipes = [
         instructions: [],
     },
     {
-        id: 2,
+        id: 3,
         name: 'Chicken bowl',
         nutritional_value: {
             calories: 347,
@@ -32,7 +48,7 @@ const recipes = [
         instructions: [],
     },
     {
-        id: 3,
+        id: 4,
         name: 'Baked sweet potato',
         nutritional_value: {
             calories: 347,
@@ -50,7 +66,7 @@ const recipes = [
         instructions: [],
     },
     {
-        id: 4,
+        id: 5,
         name: 'Avocado toasts',
         nutritional_value: {
             calories: 347,
@@ -69,7 +85,7 @@ const recipes = [
         instructions: [],
     },
     {
-        id: 5,
+        id: 6,
         name: 'Potato salad',
         nutritional_value: {
             calories: 286,
@@ -89,7 +105,7 @@ const recipes = [
         instructions: [],
     },
     {
-        id: 6,
+        id: 7,
         name: 'Scrambled eggs',
         nutritional_value: {
             calories: 333,
